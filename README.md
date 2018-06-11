@@ -256,6 +256,10 @@ npm publish
 
 # Changelog
 
+### v1.0.11
+
+- Fix money mask with leading zero
+
 ### v1.0.10
 
 - Create a writeCreateValue for initial value

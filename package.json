@@ -1,35 +1,35 @@
 {
-  "name": "brmasker-ionic-3",
-  "version": "1.0.10",
-  "description": "mascara para inputs",
-  "main": "./dist/index.js",
-  "typings": "./dist/index.d.ts",
-  "scripts": {
-    "ngc": "ngc",
-    "build": "rm -rf aot dist && npm run ngc",
-    "submit": "npm run build && npm publish",
-    "submitGit": "git push --all && git push --tags && npm run build && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amarkes/br-masker-ionic-3"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/amarkes/br-masker-ionic-3/issues"
-  },
-  "devDependencies": {
-    "@angular/common": "5.0.0",
-    "@angular/compiler": "5.0.0",
-    "@angular/compiler-cli": "5.0.0",
-    "@angular/core": "5.0.0",
-    "@angular/forms": "5.0.0",
-    "@angular/platform-browser": "5.0.0",
-    "@types/node": "8.0.54",
-    "rxjs": "5.5.2",
-    "ts-node": "3.3.0",
-    "typescript": "2.4.2"
-  }
+    "name": "brmasker-ionic-3",
+    "version": "1.0.11",
+    "description": "mascara para inputs",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "scripts": {
+        "ngc": "ngc",
+        "build": "rm -rf aot dist && npm run ngc",
+        "submit": "npm run build && npm publish",
+        "submitGit": "git push --all && git push --tags && npm run build && npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amarkes/br-masker-ionic-3"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/amarkes/br-masker-ionic-3/issues"
+    },
+    "devDependencies": {
+        "@angular/common": "5.0.0",
+        "@angular/compiler": "5.0.0",
+        "@angular/compiler-cli": "5.0.0",
+        "@angular/core": "5.0.0",
+        "@angular/forms": "5.0.0",
+        "@angular/platform-browser": "5.0.0",
+        "@types/node": "8.0.54",
+        "rxjs": "5.5.2",
+        "ts-node": "3.3.0",
+        "typescript": "2.4.2"
+    }
 }
